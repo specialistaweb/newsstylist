@@ -1,6 +1,7 @@
 {
     "name": "specialistaweb/newsstylist",
     "type": "typo3-cms-extension",
+    "minimum-stability":"dev",
     "description": "all-in-one: settings within news  plugin - fast & cool way to change the output of news, List view 5 layouts (default, card, carousel, newsletter) and swiper slider with some effects",
     "authors": [
         {
