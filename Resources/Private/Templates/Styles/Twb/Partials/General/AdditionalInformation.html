@@ -1,0 +1,51 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+
+<f:if condition="{settings.show.extraInfo} == '1'">
+  <div class="extra">
+
+	<!-- date -->
+    <f:if condition="{settings.show.extraTime} == '1'">
+        <f:if condition="{settings.show.extraIcons} == '1'">
+	<svg class="ionico ico-calendar" xmlns="http://www.w3.org/2000/svg" fill="currentColor"  width="{settings.svgicon.width}" height="{settings.svgicon.height}"  viewBox="0 0 512 512"><path d="M80 112v64h352v-64"></path><path d="M352 96V64h-16v32H176V64h-16v32H64v352h384V96h-96zm80 336H80V192h352v240zm0-256H80v-64h80v32h16v-32h160v32h16v-32h80v64z"></path></svg> 
+        </f:if>
+	      <time class="label time" itemprop="datePublished" datetime="{f:format.date(date:newsItem.datetime, format:'{settings.layout.dateFormat}')}">
+              	<f:format.date format="{settings.layout.dateFormat}">{newsItem.datetime}</f:format.date>
+	      </time>
+    </f:if>
+
+     <!-- author -->
+    <f:if condition="{newsItem.author} && {settings.show.Author} == '1'">
+      <span class="label author">
+      <f:if condition="{settings.show.extraIcons} == '1'">
+	<f:then>
+			<svg class="ionico ico-author" width="{settings.svgicon.width}" height="{settings.svgicon.height}"  xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 512 512"><circle cx="256" cy="113.8" r="113.8"></circle><path d="M501.8 398.2c-56.3-55.9-141.2-91-245.9-91-104.7 0-189.4 35.2-245.7 91C6.5 401.8 0 409.8 0 419.9V512h512v-92.1c0-10.1-6.6-18.1-10.2-21.7z"></path></svg>
+	</f:then>
+	<f:else>
+		|&nbsp; 
+	</f:else>
+      </f:if>
+		<f:translate key="author" arguments="{0:newsItem.author}"/>
+      </span>
+    </f:if>
+
+	<!-- category and tags -->
+    <span class="category tags">
+    <f:if condition="{newsItem.firstCategory} && {settings.show.Categories} == '1'">
+          <f:if condition="{settings.show.extraIcons} == '1'">
+		<svg class="ionico ico-category" xmlns="http://www.w3.org/2000/svg" fill="currentColor"  width="{settings.svgicon.width}" height="{settings.svgicon.height}"   viewBox="0 0 512 512"><path d="M112 64v336h16V80h304v337.143c0 8.205-6.652 14.857-14.857 14.857H94.857C86.652 432 80 425.348 80 417.143V128h16v-16H64v305.143C64 434.157 77.843 448 94.857 448h322.285C434.157 448 448 434.157 448 417.143V64H112z"></path><path d="M160 112h128v16H160zm0 80h240v16H160zm0 80h192v16H160zm0 80h240v16H160z"></path></svg>
+          </f:if>
+	  <span class="label label-info label-info-category">{newsItem.firstCategory.title}</span>	
+     </f:if>
+    
+     <f:if condition="{newsItem.tags} && {settings.show.Tags} == '1'">
+	      <f:if condition="{settings.show.extraIcons} == '1'">
+     	 		<svg class="ionico ico-tag" width="{settings.svgicon.width}" height="{settings.svgicon.height}"  xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 512 512"><path d="M464 32H304L48 320l160 160 256-288V32zm-16 152L208.125 456 72.062 320 311.587 48H448v136z"></path><path d="M368 160c17.645 0 32-14.355 32-32s-14.355-32-32-32-32 14.355-32 32 14.355 32 32 32zm0-48c8.836 0 16 7.163 16 16s-7.164 16-16 16-16-7.163-16-16 7.164-16 16-16z"></path></svg>
+      	      </f:if>
+		<f:for each="{newsItem.tags}" as="tag">
+			<span class="label label-info text-tag">{tag.title}</span>
+		</f:for>
+      </f:if>
+    </span>
+  </div>
+</f:if>
+</html>

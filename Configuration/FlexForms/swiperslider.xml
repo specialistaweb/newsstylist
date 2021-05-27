@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<extra>
+    <ROOT>
+        <TCEforms>
+            <sheetTitle>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_tab.swiperslider</sheetTitle>
+        </TCEforms>
+				<type>array</type>
+	<el>
+           <settings.swiper.activate>
+                <TCEforms>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.swiper_activate</label>
+                                        <config>
+                                                        <type>check</type>
+                                                        <default>0</default>
+                                        </config>
+                </TCEforms>
+            </settings.swiper.activate>
+            <settings.swiper.scroll>
+             <TCEforms>
+               <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.swiper_scroll</label>
+                                           <config>
+                                                                <type>select</type>
+                                                                <renderType>selectSingle</renderType>
+                                                                <items>
+                                                                        <numIndex index="0">
+                                                                                <numIndex index="0">Default, slide responsive</numIndex>
+                                                                                <numIndex index="1">responsive</numIndex>
+                                                                        </numIndex>
+                                                                        <numIndex index="1">
+                                                                                <numIndex index="0">Fade, 1 item per slide</numIndex>
+                                                                                <numIndex index="1">oneSlideFade</numIndex>
+                                                                        </numIndex>
+                                                                        <numIndex index="2">
+                                                                                <numIndex index="0">Flip, 1 item per slide</numIndex>
+                                                                                <numIndex index="1">flip</numIndex>
+                                                                        </numIndex>
+                                                                        <numIndex index="3">
+                                                                                <numIndex index="0">Coverflow</numIndex>
+                                                                                <numIndex index="1">coverflow</numIndex>
+                                                                        </numIndex>
+                                                                        <numIndex index="4">
+                                                                                <numIndex index="0">fixed width, do not use (bugs to fix)</numIndex>
+                                                                                <numIndex index="1">watchSlidesVisibility</numIndex>
+                                                                        </numIndex>
+                                                                </items>
+                 </config>
+              </TCEforms>
+            </settings.swiper.scroll>
+            <settings.swiper.itemsPerSlide>
+             <TCEforms>
+               <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.swiper_itemsPerSlide</label>
+                                           <config>
+                                                                <type>select</type>
+                                                                <renderType>selectSingle</renderType>
+                                                                <items>
+                                                                        <numIndex index="0">
+                                                                                <numIndex index="0">Default</numIndex>
+                                                                                <numIndex index="1">3</numIndex>
+                                                                        </numIndex>
+                                                                        <numIndex index="1">
+                                                                                <numIndex index="0">1</numIndex>
+                                                                                <numIndex index="1">1</numIndex>
+                                                                        </numIndex>
+                                                                        <numIndex index="2">
+                                                                                <numIndex index="0">2</numIndex>
+                                                                                <numIndex index="1">2</numIndex>
+                                                                        </numIndex>
+                                                                        <numIndex index="3">
+                                                                                <numIndex index="0">3</numIndex>
+                                                                                <numIndex index="1">3</numIndex>
+                                                                        </numIndex>
+                                                                        <numIndex index="4">
+                                                                                <numIndex index="0">4</numIndex>
+                                                                                <numIndex index="1">4</numIndex>
+                                                                        </numIndex>
+                                                                        <numIndex index="5">
+                                                                                <numIndex index="0">5</numIndex>
+                                                                                <numIndex index="1">5</numIndex>
+                                                                        </numIndex>
+                                                                        <numIndex index="6">
+                                                                                <numIndex index="0">6</numIndex>
+                                                                                <numIndex index="1">6</numIndex>
+                                                                        </numIndex>
+                                                                </items>
+                 </config>
+              </TCEforms>
+            </settings.swiper.itemsPerSlide>
+
+            <settings.swiper.background>
+                <TCEforms>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.swiper_background</label>
+                                        <config>
+                                                        <type>input</type>
+                                                        <renderType>colorpicker</renderType>
+                                                        <size>10</size>
+							<default>#ffffff</default>
+                                        </config>
+                </TCEforms>
+            </settings.swiper.background>
+            <settings.swiper.autoplay>
+                <TCEforms>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.swiper_autoplay</label>
+                                        <config>
+                                                        <type>check</type>
+                                                        <default>1</default>
+                                        </config>
+                </TCEforms>
+            </settings.swiper.autoplay>
+            <settings.swiper.carouselHeight>
+                        <TCEforms>
+                           <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.swiper_carouselHeight</label>
+                            <config>
+                                <type>input</type>
+                                <size>4</size>
+				<range>
+					<lower>100</lower>
+					<upper>1200</upper>
+				</range>
+                                <default>420</default>
+                                <eval>required,int</eval>
+                            </config>
+                        </TCEforms>
+            </settings.swiper.carouselHeight>
+            <settings.swiper.delay>
+                        <TCEforms>
+                           <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.swiper_delay</label>
+                            <config>
+                                <type>input</type>
+                                <size>5</size>
+				<range>
+					<lower>0</lower>
+					<upper>12000</upper>
+				</range>
+                                <default>2000</default>
+                                <eval>required,int</eval>
+                            </config>
+                        </TCEforms>
+            </settings.swiper.delay>
+            <settings.swiper.speed>
+                        <TCEforms>
+                           <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.swiper_speed</label>
+                            <config>
+                                <type>input</type>
+                                <size>5</size>
+				<range>
+					<lower>0</lower>
+					<upper>12000</upper>
+				</range>
+                                <type>input</type>
+                                <size>8</size>
+                                <default>1200</default>
+                                <eval>required,int</eval>
+                            </config>
+                        </TCEforms>
+            </settings.swiper.speed>
+            <settings.swiper.controlsposition>
+             <TCEforms>
+               <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.swiper_controlsposition</label>
+                                           <config>
+                                                                <type>select</type>
+                                                                <renderType>selectSingle</renderType>
+                                                                <items>
+                                                                        <numIndex index="0">
+                                                                                <numIndex index="0">bottom</numIndex>
+                                                                                <numIndex index="1"></numIndex>
+                                                                        </numIndex>
+                                                                        <numIndex index="1">
+                                                                                <numIndex index="0">inside</numIndex>
+                                                                                <numIndex index="1">inside</numIndex>
+                                                                        </numIndex>
+                                                                </items>
+                 </config>
+              </TCEforms>
+            </settings.swiper.controlsposition>
+            <settings.swiper.showarrows>
+                <TCEforms>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.swiper_showarrows</label>
+                                        <config>
+                                                        <type>check</type>
+                                                        <default>1</default>
+                                        </config>
+                </TCEforms>
+            </settings.swiper.showarrows>
+            <settings.swiper.shownavigation>
+                <TCEforms>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.swiper_shownavigation</label>
+                                        <config>
+                                                        <type>check</type>
+                                                        <default>1</default>
+                                        </config>
+                </TCEforms>
+            </settings.swiper.shownavigation>
+            <settings.swiper.mousewheel>
+                <TCEforms>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.swiper_mousewheel</label>
+                                        <config>
+                                                        <type>check</type>
+                                                        <default>1</default>
+                                        </config>
+                </TCEforms>
+            </settings.swiper.mousewheel>
+            <settings.swiper.keyboard>
+                <TCEforms>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.swiper_keyboard</label>
+                                        <config>
+                                                        <type>check</type>
+                                                        <default>1</default>
+                                        </config>
+                </TCEforms>
+            </settings.swiper.keyboard>
+	</el>
+    </ROOT>
+</extra>

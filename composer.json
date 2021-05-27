@@ -1,0 +1,56 @@
+{
+    "name": "specialistaweb/newsstylist",
+    "type": "typo3-cms-extension",
+    "description": "all-in-one: settings within news  plugin - fast & cool way to change the output of news, List view 5 layouts (default, card, carousel, newsletter) and swiper slider with some effects",
+    "authors": [
+        {
+            "name": "Alessandro Tuveri",
+            "role": "Developer"
+        },
+        {
+            "name": "Giulia Tuveri",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "TYPO3",
+        "extension",
+        "article",
+        "news",
+        "list",
+        "slider",
+        "swiper",
+        "layout",
+        "template",
+	"styles",
+	"carousel",
+	"card",
+	"coverflow",
+	"newsletter",
+	"text"
+    ],
+    "homepage": "https://typo3-rollovereffects.uniud.it/development/newsstylist",
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+
+    "require": {
+        "typo3/cms-core": "^9.5|^10",
+        "georgringer/news": "^8.5",
+        "bk2k/bootstrap-package": "^9.0.0|^10|^11"
+    },
+    "autoload": {
+        "psr-4": {
+            "SpecialistaWeb\\Newsstylist\\": "Classes"
+        }
+    },
+    "replace": {
+        "specialistaweb/newsstylist": "self.version",
+        "typo3-ter/newsstylist": "self.version"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "newsstylist"
+        }
+    }
+}

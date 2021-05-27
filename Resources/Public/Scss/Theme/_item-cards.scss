@@ -1,0 +1,72 @@
+// card news
+
+.news-list-view.card-menu .page-navigation {
+    margin-left: 12px;
+    padding-right: 12px;
+}
+
+.news-list-view.card-menu  .card {
+    border: 1px solid rgba(0,0,0,0.225);
+}
+
+.news-list-view.card-menu .card .card-footer a.btn-read-more {
+    border: 1px solid #aaa;
+}
+
+.news-list-view.card-menu .card h3  {
+    font-size: 1.18em;
+}
+  
+.news-list-view.card-menu .card .card-body p {
+    font-size: 0.76em;
+}
+  
+.news-list-view.card-menu .page-navigation {
+    width: 100%;
+}
+
+.news-list-view.card-menu-columns-4 span.category.tags {
+    display: block;
+    line-height: 0.8em;
+}
+
+/* swiper with card */
+.swiper-container ul.f3-widget-paginator {
+    float: none;
+    padding-left: 12px;
+}
+  
+ .news .swiper-container .page-navigation p {
+    display: none;
+}
+  .news .swiper-container .page-navigation  {
+    margin-left: 0px;
+  	margin-right: auto;
+    max-width: 320px;
+}
+  
+  .swiper-container ul.f3-widget-paginator {
+    margin-right: 12px;
+  }
+  
+   .news-list-view.card-menu .page-navigation {
+         width: 100%;
+         flex: 0 0 100%;
+  }
+
+  .swiper-container .page-navigation {
+  		margin-left: 12px;
+  }
+  
+  .swiper-container .page-navigation * {
+  		font-size: 12px;
+  }
+  
+  .swiper-container .page-navigation:nth-child(2) {
+         display: none;
+   }
+
+.layout-card .row.item-default.news-list-item.swiper-slide {
+   padding-left: 40px;
+   padding-right: 40px;
+}

@@ -1,0 +1,61 @@
+.swiper-controls {
+	margin-top: -24px;
+	display: block; 
+	width: 100%; 
+	height: 32px; 
+	text-align: center;
+}
+
+.swiper-controls .swiper-button-prev, .swiper-controls .swiper-button-next {
+        top: unset;
+        bottom: 0px;
+}
+
+.swiper-controls .swiper-button-next:after, .swiper-controls .swiper-button-prev:after {
+	font-size: 14px !important;
+	font-weight: bold;
+	color: black;
+}
+
+.swiper-controls .swiper-pagination .swiper-pagination-bullet {
+	cursor: pointer;
+	margin-left: 6px;
+	margin-right: 6px;
+	width: 10px;
+	height: 10px;
+}
+
+.swiper-controls .swiper-button-prev {
+	display: inline-block; 
+	position: relative; 
+	line-height: 32px; 
+	margin-right: 8px; 
+	margin-top: 4px; 
+}
+
+.swiper-controls .swiper-button-next {
+	display: inline-block; 
+	position: relative; 
+	line-height: 32px; 
+	margin-left: 8px; 
+	margin-top: 0px;
+}
+
+
+.swiper-controls .swiper-pagination {
+	display: inline-block; 
+	position: relative; 
+	margin-left: 0px; 
+	margin-right: 0px;
+	top: 0px;
+}
+
+
+.swiper-controls .swiper-pagination span.swiper-pagination-bullet:last-child() {
+ 	margin-right: 0px;
+}
+
+
+.layout-default .row.item-default.news-list-item.swiper-slide {
+    padding-bottom: 0px !important;
+}

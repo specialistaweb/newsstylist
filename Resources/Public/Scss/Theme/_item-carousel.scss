@@ -1,0 +1,39 @@
+div.layout-crousel .layout-default .row.item-default.news-list-item.swiper-slide {
+   padding-top: 0px !important;
+}
+
+
+div.swiper-container.layout-carousel {
+    padding-top: 0px;
+}
+
+
+
+.row.news-list-item.item-carousel.item-default.swiper-slide {
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat; 
+}
+
+.row.news-list-item.item-carousel.item-default.swiper-slide a {
+   text-decoration: none;
+}
+
+.layout-carousel.card-menu {
+    padding-top: 0px;
+    padding-right: 0px;
+}
+
+div.layout-carousel .row.news-list-item .lead, div.layout-carousel .row.news-list-item .lead p {
+    color: white;
+}
+
+.item-carousel-text {
+ 	position: absolute; 
+	width: 100%; 
+	bottom: 0px; 
+	background-color: rgba(0,0,0,0.6); 
+	padding: 20px;
+}
+
+

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2030-06-16T11:47:18Z" product-name="news">
+		<header/>
+		<body>
+			<trans-unit id="flexforms_tab.newsstylist" xml:space="preserve">
+				<source>News StyList</source>
+			</trans-unit>
+			<trans-unit id="flexforms_tab.swiperslider" xml:space="preserve">
+				<source>Swiperslider</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.layout_name" xml:space="preserve">
+				<source>Layout</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.layout_menuCardItems" xml:space="preserve">
+				<source>Items per row (static output, when slider is not enabled!)</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.swiper_activate" xml:space="preserve">
+				<source>Enable swiper slider</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.swiper_scroll" xml:space="preserve">
+				<source>Slider effects</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.swiper_itemsPerSlide" xml:space="preserve">
+				<source>Items per slide (only for 'Default, responsive' and 'coverwflow' / the others: set Additional > Max record displayed and Items per page)</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.swiper_background" xml:space="preserve">
+				<source>Background color</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.swiper_carouselHeight" xml:space="preserve">
+				<source>Carousel height, px (range: 100-1200)</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.swiper_autoplay" xml:space="preserve">
+				<source>Autoplay</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.swiper_speed" xml:space="preserve">
+				<source>Transition speed (ms)</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.swiper_delay" xml:space="preserve">
+				<source>Delay (ms)</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.swiper_showarrows" xml:space="preserve">
+				<source>Show arrows</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.swiper_controlsposition" xml:space="preserve">
+				<source>Arrows position</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.swiper_mousewheel" xml:space="preserve">
+				<source>Enable mousewheel</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.swiper_keyboard" xml:space="preserve">
+				<source>Enable keyboard</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.swiper_shownavigation" xml:space="preserve">
+				<source>Show navigation bullets</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.layout_headLineOnTop" xml:space="preserve">
+				<source>Headline on top before row image+text</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.layout_additionalInfoFirst" xml:space="preserve">
+				<source>Extra info first, before Title</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.layout_colImage" xml:space="preserve">
+				<source>Default: Image column size (style)</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.layout_colText" xml:space="preserve">
+				<source>Default: Text columns size (style)</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.layout_imageRight" xml:space="preserve">
+				<source>Push the image on right, after the text</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.svgicon_width" xml:space="preserve">
+				<source>SVG icon width (pixels)</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.svgicon_height" xml:space="preserve">
+				<source>SVG icon height (pixels)</source>
+			</trans-unit>
+	                <trans-unit id="flexforms_newsstylist.show_author" xml:space="preserve">
+				<source>Show author</source>
+			</trans-unit>
+        	        <trans-unit id="flexforms_newsstylist.show_categories" xml:space="preserve">
+				<source>Show categories</source>
+			</trans-unit>
+            		<trans-unit id="flexforms_newsstylist.show_tags" xml:space="preserve">
+				<source>Show tags</source>
+			</trans-unit>
+            		<trans-unit id="flexforms_newsstylist.show_moreLink" xml:space="preserve">
+				<source>Show more Link</source>
+			</trans-unit>
+            		<trans-unit id="flexforms_newsstylist.moreLinkLabel" xml:space="preserve">
+				<source>Override more link label</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.show_Image" xml:space="preserve">
+				<source>Show Image</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.show_headLine" xml:space="preserve">
+				<source>Show headline</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.show_lead" xml:space="preserve">
+				<source>Show teaser</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.show_extraInfo" xml:space="preserve">
+				<source>Show extra info</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.show_extraIcons" xml:space="preserve">
+				<source>Show extra svg icons</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.show_extraTime" xml:space="preserve">
+				<source>Show extra time</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.layout_moreLink" xml:space="preserve">
+				<source>More link aspect</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.displayDummyIfNoMedia" xml:space="preserve">
+				<source>Display dummy image if no media found</source>
+			</trans-unit>
+			<trans-unit id="flexforms_newsstylist.layout_dateFormat" xml:space="preserve">
+				<source>Date format strfime php function (see: https://www.php.net/manual/en/function.strftime.php) ie. %d %B %Y %H:%M</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

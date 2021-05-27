@@ -1,0 +1,85 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+
+<f:variable name="breakpoint768" value ="4" />
+<f:if condition="{settings.swiper.itemsPerSlide} < {breakpoint768}">
+                <f:variable name="breakpoint768" value="{settings.swiper.itemsPerSlide}" />
+</f:if>
+
+<f:variable name="breakpoint640" value ="3" />
+<f:if condition="{settings.swiper.itemsPerSlide} < {breakpoint640}">
+                <f:variable name="breakpoint640" value="{settings.swiper.itemsPerSlide}" />
+</f:if>
+
+<f:variable name="breakpoint480" value ="2" />
+<f:if condition="{settings.swiper.itemsPerSlide} < {breakpoint480}">
+                <f:variable name="breakpoint480" value="{settings.swiper.itemsPerSlide}" />
+</f:if>
+
+<f:if condition="{settings.swiper.autoplay}">
+   <f:then>
+                <f:variable name="autoplay" value="true" />
+   </f:then>
+   <f:else>
+                <f:variable name="autoplay" value="false" />
+   </f:else>
+</f:if>
+
+<script>
+
+      var swiper<f:format.raw>{contentObjectData.uid}</f:format.raw> = new Swiper('#news-container-<f:format.raw>{contentObjectData.uid}</f:format.raw>', {
+      <f:if condition="{autoplay} == 'true'">
+      autoplay: {
+	delay: <f:format.stripTags>{settings.swiper.delay}</f:format.stripTags> 
+      },
+      </f:if>
+      speed: <f:format.stripTags>{settings.swiper.speed}</f:format.stripTags>,	
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      <f:if condition="{settings.swiper.mousewheel}">
+      mousewheel: true,
+      </f:if>
+      <f:if condition="{settings.swiper.keyboard}">
+      keyboard: {
+                enabled: true,
+                onlyInViewport: false,
+                },
+      </f:if>
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+      loop: true,
+      loopFillGroupWithBlank: false,      
+      spaceBetween: 0,
+      // init: false,
+      breakpoints: {
+        480: {
+          slidesPerView:  <f:format.raw>{breakpoint480}</f:format.raw>,
+          slidesPerGroup:  <f:format.raw>{breakpoint480}</f:format.raw>,
+          spaceBetween: 0,
+        },
+        640: {
+          slidesPerView:  <f:format.raw>{breakpoint640}</f:format.raw>,
+          slidesPerGroup:  <f:format.raw>{breakpoint640}</f:format.raw>,
+          spaceBetween: 0,
+        },
+        768: {
+          slidesPerView:  <f:format.raw>{breakpoint768}</f:format.raw>,
+          slidesPerGroup:  <f:format.raw>{breakpoint768}</f:format.raw>,
+          spaceBetween: 0,
+        },
+        1024: {
+          slidesPerView: <f:format.raw>{settings.swiper.itemsPerSlide}</f:format.raw>,
+          slidesPerGroup: <f:format.raw>{settings.swiper.itemsPerSlide}</f:format.raw>,
+          spaceBetween: 0,
+        },
+      }
+    });
+
+</script>
+
+</html>

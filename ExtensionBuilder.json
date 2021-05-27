@@ -1,0 +1,45 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "a simple a neww way to",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 9.5.0-9.5.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "9.5.0-9.5.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "newsstylist",
+        "name": "News styList",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "University of Udine",
+                "email": "at@uniud.it",
+                "name": "Alessandro Tuveri",
+                "role": "Developer"
+            },
+            {
+                "company": "Specialistaweb",
+                "email": "gt@specialistaweb.it",
+                "name": "Giulia Tuveri",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [],
+        "vendorName": "SpecialistaWeb"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2020-05-13 12:02",
+        "extension_builder_version": "9.10.2",
+        "be_user": "Service (1)"
+    }
+}

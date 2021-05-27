@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<extra>
+    <ROOT>
+        <TCEforms>
+            <sheetTitle>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_tab.newsstylist</sheetTitle>
+        </TCEforms>
+				<type>array</type>
+	<el>
+          <settings.layout.name>
+             <TCEforms>
+             <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.layout_name</label>
+					   <config>
+								<type>select</type>
+								<renderType>selectSingle</renderType>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">Default</numIndex>
+										<numIndex index="1">default</numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">Newsletter plain output</numIndex>
+										<numIndex index="1">newsletter-plain</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">Cards (menu card style)</numIndex>
+										<numIndex index="1">card</numIndex>
+									</numIndex>
+									<numIndex index="3">
+										<numIndex index="0">Carousel</numIndex>
+										<numIndex index="1">carousel</numIndex>
+									</numIndex>
+									<numIndex index="4">
+										<numIndex index="0">Carousel big text centered</numIndex>
+										<numIndex index="1">carousel-bigtext</numIndex>
+									</numIndex>
+								</items>
+                 </config>
+              </TCEforms>
+          </settings.layout.name>
+
+          <settings.layout.menuCardItems> 
+             <TCEforms>
+               <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.layout_menuCardItems</label>
+		<config>
+								<type>select</type>
+								<renderType>selectSingle</renderType>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">Default</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">1</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">2</numIndex>
+										<numIndex index="1">2</numIndex>
+									</numIndex>
+									<numIndex index="3">
+										<numIndex index="0">3</numIndex>
+										<numIndex index="1">3</numIndex>
+									</numIndex>
+									<numIndex index="4">
+										<numIndex index="0">4</numIndex>
+										<numIndex index="1">4</numIndex>
+									</numIndex>
+								</items>
+                 </config>
+              </TCEforms>
+            </settings.layout.menuCardItems> 
+          <settings.layout.colText>
+                <TCEforms>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.layout_colText</label>
+                    <config>
+								<type>select</type>
+								<renderType>selectSingle</renderType>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">Default (col-md-9)</numIndex>
+										<numIndex index="1">col-md-9</numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">col-md-1</numIndex>
+										<numIndex index="1">col-md-1</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">col-md-2</numIndex>
+										<numIndex index="1">col-md-2</numIndex>
+									</numIndex>
+									<numIndex index="3">
+										<numIndex index="0">col-md-3</numIndex>
+										<numIndex index="1">col-md-3</numIndex>
+									</numIndex>
+									<numIndex index="4">
+										<numIndex index="0">col-md-4</numIndex>
+										<numIndex index="1">col-md-4</numIndex>
+									</numIndex>
+									<numIndex index="5">
+										<numIndex index="0">col-md-5</numIndex>
+										<numIndex index="1">col-md-5</numIndex>
+									</numIndex>
+									<numIndex index="6">
+										<numIndex index="0">col-md-6</numIndex>
+										<numIndex index="1">col-md-6</numIndex>
+									</numIndex>
+									<numIndex index="7">
+										<numIndex index="0">col-md-7</numIndex>
+										<numIndex index="1">col-md-7</numIndex>
+									</numIndex>
+									<numIndex index="8">
+										<numIndex index="0">col-md-8</numIndex>
+										<numIndex index="1">col-md-8</numIndex>
+									</numIndex>
+									<numIndex index="9">
+										<numIndex index="0">col-md-9</numIndex>
+										<numIndex index="1">col-md-9</numIndex>
+									</numIndex>
+									<numIndex index="10">
+										<numIndex index="0">col-md-10</numIndex>
+										<numIndex index="1">col-md-10</numIndex>
+									</numIndex>
+									<numIndex index="11">
+										<numIndex index="0">col-md-11</numIndex>
+										<numIndex index="1">col-md-11</numIndex>
+									</numIndex>
+									<numIndex index="12">
+										<numIndex index="0">col-md-12</numIndex>
+										<numIndex index="1">col-md-12</numIndex>
+									</numIndex>
+								</items>
+                    </config>
+                </TCEforms>
+            </settings.layout.colText>
+            <settings.layout.colImage>
+                <TCEforms>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.layout_colImage</label>
+                    <config>
+								<type>select</type>
+								<renderType>selectSingle</renderType>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">Default (col-md-3)</numIndex>
+										<numIndex index="1">col-md-3</numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">col-md-1</numIndex>
+										<numIndex index="1">col-md-1</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">col-md-2</numIndex>
+										<numIndex index="1">col-md-2</numIndex>
+									</numIndex>
+									<numIndex index="3">
+										<numIndex index="0">col-md-3</numIndex>
+										<numIndex index="1">col-md-3</numIndex>
+									</numIndex>
+									<numIndex index="4">
+										<numIndex index="0">col-md-4</numIndex>
+										<numIndex index="1">col-md-4</numIndex>
+									</numIndex>
+									<numIndex index="5">
+										<numIndex index="0">col-md-5</numIndex>
+										<numIndex index="1">col-md-5</numIndex>
+									</numIndex>
+									<numIndex index="6">
+										<numIndex index="0">col-md-6</numIndex>
+										<numIndex index="1">col-md-6</numIndex>
+									</numIndex>
+									<numIndex index="7">
+										<numIndex index="0">col-md-7</numIndex>
+										<numIndex index="1">col-md-7</numIndex>
+									</numIndex>
+									<numIndex index="8">
+										<numIndex index="0">col-md-8</numIndex>
+										<numIndex index="1">col-md-8</numIndex>
+									</numIndex>
+									<numIndex index="9">
+										<numIndex index="0">col-md-9</numIndex>
+										<numIndex index="1">col-md-9</numIndex>
+									</numIndex>
+									<numIndex index="10">
+										<numIndex index="0">col-md-10</numIndex>
+										<numIndex index="1">col-md-10</numIndex>
+									</numIndex>
+									<numIndex index="11">
+										<numIndex index="0">col-md-11</numIndex>
+										<numIndex index="1">col-md-11</numIndex>
+									</numIndex>
+									<numIndex index="12">
+										<numIndex index="0">col-md-12</numIndex>
+										<numIndex index="1">col-md-12</numIndex>
+									</numIndex>
+								</items>
+
+                    </config>
+                </TCEforms>
+            </settings.layout.colImage>
+            <settings.layout.headLineOnTop>
+				<TCEforms>
+					<label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.layout_headLineOnTop</label>
+						<config>
+							<type>check</type>
+						</config>
+				 </TCEforms>
+		  </settings.layout.headLineOnTop>
+         
+            <settings.layout.additionalInfoFirst>
+                <TCEforms>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.layout_additionalInfoFirst</label>
+						<config>
+							<type>check</type>
+						</config>
+                </TCEforms>
+            </settings.layout.additionalInfoFirst>
+            <settings.show.extraInfo>
+                <TCEforms>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.show_extraInfo</label>
+						<config>
+							<type>check</type>
+                            <default>1</default>
+						</config>
+                </TCEforms>
+            </settings.show.extraInfo>
+            <settings.show.extraIcons>
+                <TCEforms>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.show_extraIcons</label>
+						<config>
+							<type>check</type>
+                            <default>1</default>
+						</config>
+                </TCEforms>
+            </settings.show.extraIcons>
+            <settings.show.extraTime>
+                <TCEforms>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.show_extraTime</label>
+						<config>
+							<type>check</type>
+                            				<default>1</default>
+						</config>
+                </TCEforms>
+            </settings.show.extraTime>
+            <settings.layout.dateFormat>
+                <TCEforms>                 
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.layout_dateFormat</label>
+                    <config>
+                        <type>input</type>
+                        <size>20</size>
+                        <eval>string</eval>
+                        <default>%d-%m-%Y %H:%M</default>
+                    </config>
+                </TCEforms>
+            </settings.layout.dateFormat>
+            <settings.show.Author>
+                <TCEforms>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.show_author</label>
+						<config>
+							<type>check</type>
+                            				<default>1</default>
+						</config>
+                </TCEforms>
+            </settings.show.Author>
+            <settings.show.Categories>
+                <TCEforms>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.show_categories</label>
+						<config>
+							<type>check</type>
+                            <default>1</default>
+						</config>
+                </TCEforms>
+            </settings.show.Categories>
+            <settings.show.Tags>
+                <TCEforms>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.show_tags</label>
+						<config>
+							<type>check</type>
+                            <default>1</default>
+						</config>
+                </TCEforms>
+            </settings.show.Tags>
+             <settings.layout.imageRight>
+                <TCEforms>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.layout_imageRight</label>
+						<config>
+							<type>check</type>
+						</config>
+                </TCEforms>
+            </settings.layout.imageRight>
+            <settings.show.headLine>
+                <TCEforms>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.show_headLine</label>
+						<config>
+							<type>check</type>
+                            <default>1</default>
+						</config>
+                </TCEforms>
+            </settings.show.headLine>
+            <settings.show.Image>
+                <TCEforms>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.show_Image</label>
+						<config>
+							<type>check</type>
+                            <default>1</default>
+						</config>
+                </TCEforms>
+            </settings.show.Image>
+            <settings.displayDummyIfNoMedia>         
+                <TCEforms>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.displayDummyIfNoMedia</label>
+						<config>
+							<type>check</type>
+                            <default>1</default>
+						</config>
+                </TCEforms>
+            </settings.displayDummyIfNoMedia>
+            <settings.show.lead>
+                <TCEforms>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.show_lead</label>
+						<config>
+							<type>check</type>
+				                        <default>1</default>
+						</config>
+                </TCEforms>
+            </settings.show.lead>
+            <settings.show.moreLink>
+				<TCEforms>
+					<label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.show_moreLink</label>
+						<config>
+							<type>check</type>
+                            <default>1</default>
+						</config>
+				 </TCEforms>
+		  </settings.show.moreLink>  
+          <settings.layout.moreLink>
+             <TCEforms>
+             <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.layout_moreLink</label>
+					   <config>
+								<type>select</type>
+								<renderType>selectSingle</renderType>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">Button</numIndex>
+										<numIndex index="1">button</numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">Text only</numIndex>
+										<numIndex index="1">text</numIndex>
+									</numIndex>
+								</items>
+                 </config>
+              </TCEforms>
+            </settings.layout.moreLink>
+            <settings.layout.moreLinkLabel>
+                <TCEforms>                 
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.moreLinkLabel</label>
+                    <config>
+                        <type>input</type>
+                        <size>30</size>
+                        <eval>string</eval>
+                        <default></default>
+                    </config>
+                </TCEforms>
+            </settings.layout.moreLinkLabel>
+           <settings.svgicon.width>
+                <TCEforms>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.svgicon_width</label>
+                    <config>
+                        <type>input</type>
+                        <size>2</size>
+                        <eval>int</eval>
+                        <default>18</default>
+                    </config>
+                </TCEforms>
+            </settings.svgicon.width>
+            <settings.svgicon.height>
+                <TCEforms>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.svgicon_height</label>
+                    <config>
+                        <type>input</type>
+                        <size>2</size>
+                        <eval>int</eval>
+                        <default>18</default>
+                    </config>
+                </TCEforms>
+            </settings.svgicon.height>	
+	</el>
+    </ROOT>
+</extra>

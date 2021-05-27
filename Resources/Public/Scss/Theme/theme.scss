@@ -1,0 +1,21 @@
+// variables for newsstylist
+@import 'variables';
+
+// swiper slider original styles and variables
+@import 'swiper';
+
+// override swiper styles
+@import 'override';
+
+// scsss styles for +ext newsstylist
+@import 'common';
+@import 'ext_news';
+@import 'controls';
+@import 'item-cards';
+@import 'item-default';
+@import 'item-newsletter';
+@import 'item-carousel';
+@import 'item-carousel-bigtext';
+@import 'watchVisibility';
+@import 'oneSlideFade';
+@import 'coverflow';

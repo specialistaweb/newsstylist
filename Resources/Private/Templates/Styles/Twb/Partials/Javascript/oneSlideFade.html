@@ -1,0 +1,48 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+
+<f:if condition="{settings.swiper.autoplay}">
+   <f:then>
+                <f:variable name="autoplay" value="true" />
+   </f:then>
+   <f:else>
+                <f:variable name="autoplay" value="false" />
+   </f:else>
+</f:if>
+
+<f:variable name="speed" value ="{settings.swiper.speed}" />
+
+<script>
+
+      var swiper<f:format.raw>{contentObjectData.uid}</f:format.raw> = new Swiper('#news-container-<f:format.raw>{contentObjectData.uid}</f:format.raw>', {
+      <f:if condition="{autoplay} == 'true'">
+      autoplay: {
+        delay: <f:format.stripTags>{settings.swiper.delay}</f:format.stripTags>,
+      },
+      </f:if>
+      <f:if condition="{settings.swiper.mousewheel}">
+      mousewheel: true,
+      </f:if>
+      <f:if condition="{settings.swiper.keyboard}">
+      keyboard: {
+                enabled: true,
+                onlyInViewport: false,
+                },
+      </f:if>
+      speed: <f:format.stripTags>{speed}</f:format.stripTags>,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      loop: true,
+      loopFillGroupWithBlank: true,
+      effect: 'fade',
+      slidesPerView: 1,
+      spaceBetween: 0,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+</script>
+
+</html>

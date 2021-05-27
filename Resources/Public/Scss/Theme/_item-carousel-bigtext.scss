@@ -1,0 +1,42 @@
+div.news .valign {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+}
+
+div.swiper-container.layout-carousel-bigtext {
+    padding-top: 0px;
+}
+
+
+div.news .carousel-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+div.news .carousel-text-inner {
+    max-width: 72%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+div.news .vcontainer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.news .carousel-text-inner h3 {
+    font-size: 52px;
+    text-shadow: 2px 2px black;
+
+}
+
+/*
+div.news .carousel-text-inner .lead, div.news .carousel-text-inner .lead p {
+    color: white;
+}
+*/

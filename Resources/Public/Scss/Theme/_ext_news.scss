@@ -1,0 +1,83 @@
+.news {
+   /* padding-right: 18px;*/
+    overflow: hidden;
+}
+
+div.col-md-12.news-headline  {
+  padding-right: 16px;
+  padding-left: 16px;
+} 
+                
+.imageright {
+    order: 2;
+}
+
+span.label.label-info.text-tag, span.label, time.label.time {
+    font-size: 0.7rem;
+}
+
+.news .label.label-info {
+    padding-right: 8px;
+    font-weight: bolder;
+}
+ 
+.row.news-list-item .image-invisible {
+    display: none;
+}
+                
+.news div.extra .ionico, .news div.extra time { 
+  margin-right: 6px;
+   margin-bottom: 4px;
+}
+
+.news div.extra * { 
+  color: $primary; 
+  text-transform: uppercase;
+}    
+
+
+.row.news-list-item {
+    margin-bottom: 0px !important;
+    border-bottom: 1px dotted #aaa;
+    padding-bottom: 24px !important;
+    /* padding-top: 24px !important; */
+}
+    
+.row.news-list-item h3 {
+    font-size: 1.47rem;
+    padding-top: 0px;
+}
+
+.row.news-list-item .lead,  .row.news-list-item .lead p {
+        font-size: 1.0rem;
+	padding-bottom: 0px;
+        margin-bottom: 0px;
+}
+  
+.row.news-list-item .extra {
+    font-size: 0.9rem;
+}
+
+.row.news-list-item .btn-read-more {
+     margin-top: 16px;
+}
+
+.row.news-list-item img.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.page-navigation {
+    margin-top: 24px;
+}
+
+
+/*
+.swiper-container-fade.card {
+    background: white;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets {
+    background: ;
+} 
+*/

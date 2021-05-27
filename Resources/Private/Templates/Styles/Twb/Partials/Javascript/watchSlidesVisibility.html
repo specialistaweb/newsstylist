@@ -1,0 +1,32 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+
+<f:if condition="{settings.swiper.autoplay} == 'enabled'}">
+   <f:then>
+                <f:variable name="autoplay" value="true" />
+   </f:then>
+   <f:else>
+                <f:variable name="autoplay" value="false" />
+   </f:else>
+</f:if>
+
+<f:variable name="speed" value ="{settings.swiper.speed}" />
+
+
+<script>
+var swiper<f:format.raw>{contentObjectData.uid}</f:format.raw> = new Swiper('#news-container-<f:format.raw>{contentObjectData.uid}</f:format.raw>', {
+        autoplay: <f:format.stripTags>{autoplay}</f:format.stripTags>,
+        speed: <f:format.stripTags>{speed}</f:format.stripTags>,
+        mousewheel: true,
+      	loopFillGroupWithBlank: true,
+      	mousewheel: true,
+        keyboard: {
+          enabled: true,
+          onlyInViewport: true,
+        },
+        watchSlidesProgress: true,
+        watchSlidesVisibility: true,
+
+     });
+</script>
+
+</html>

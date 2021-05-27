@@ -1,0 +1,9 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+  <f:if condition="{settings.show.headLine} == '1'">
+         <h3 itemprop="headline">
+			<n:link newsItem="{newsItem}" settings="{settings}" title="{newsItem.title}">
+				{newsItem.title}
+			</n:link>
+         </h3>
+   </f:if>
+</html>

@@ -1,0 +1,17 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+	  xmlns:n="http://typo3.org/ns/GeorgRinger/News/ViewHelpers"
+	  data-namespace-typo3-fluid="true">
+<!-- Partials/List/Item.html - switch to various templates, according to settings or layout options -->
+
+<f:switch expression="{settings.layout.name}"> 
+  
+  <f:case value="newsletter-plain">{f:render(partial:'List/Item-newsletter-plain', arguments:'{_all}')}</f:case>
+  <f:case value="card">{f:render(partial:'List/Item-card', arguments:'{_all}')}</f:case>
+  <f:case value="carousel">{f:render(partial:'List/Item-carousel', arguments:'{_all}')}</f:case>
+  <f:case value="carousel-bigtext">{f:render(partial:'List/Item-carousel-bigtext', arguments:'{_all}')}</f:case>
+  <f:defaultCase>{f:render(partial:'List/Item-default', arguments:'{_all}')}</f:defaultCase>
+
+</f:switch>
+
+  
+</html>

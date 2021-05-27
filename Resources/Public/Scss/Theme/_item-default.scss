@@ -1,0 +1,28 @@
+.row.item-default.swiper-slide {
+    margin-right: 0px;
+    margin-left:  0px;
+    border-bottom: 0px;
+}
+
+.swiper-wrapper .page-navigation {
+    display: none;
+}
+
+.layout-default .row.item-default.news-list-item.swiper-slide {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px !important;
+}
+
+
+.row.news-list-item.item-default.card-menu-item.display-unset div.col-md-12 {
+    padding-right: 12px;
+}
+
+.row.display-unset {
+    display: unset;
+}
+
+.row.news-list-item.item-default.card-menu-item.display-unset {
+    flex-grow: 1;
+}
