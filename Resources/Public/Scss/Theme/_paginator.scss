@@ -1,0 +1,27 @@
+ul.f3-widget-paginator {
+    position: relative;
+    width: 100%;
+    padding-left: 0px;
+    margin-left: 12px;
+    margin-top: 20px;
+}
+
+.f3-widget-paginator li {
+    display: inline-block;
+    padding: 0px 8px;
+    border: 1px solid $primary;
+    margin-right: 6px;
+}
+
+.f3-widget-paginator li a {
+    text-decoration: none;
+}
+
+.f3-widget-paginator li:hover {
+   background-color: #dedede;
+}
+
+.f3-widget-paginator li.current {
+   background-color: #dedede;
+   font-weight: bold;
+}
