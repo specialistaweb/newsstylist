@@ -1,9 +1,6 @@
 <?php
 defined('TYPO3_MODE') || die('Access denied.');
 
-call_user_func(
-    function($extKey)
-    {
         \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
             'SpecialistaWeb.newsstylist',
             'frontend',
@@ -22,8 +19,3 @@ call_user_func(
 
 	// setup
 	\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTypoScript('newsstylist', 'setup', '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:newsstylist/Configuration/TypoScript/setup.ts>"');
-    },
-
-    $_EXTKEY
-);
-
