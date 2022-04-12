@@ -2,7 +2,7 @@
 defined('TYPO3_MODE') || die('Access denied.');
 
         \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
-            'SpecialistaWeb.newsstylist',
+            'newsstylist',
             'frontend',
             'tx_newsstylist'
         );
