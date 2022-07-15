@@ -18,8 +18,8 @@ $EM_CONF[$_EXTKEY] = array (
   'state' => 'stable',
   'uploadfolder' => false,
   'clearcacheonload' => false,
-  'author' => 'Alessandro Tuveri (University of Udine), Giulia Tuveri (specialistaweb.it)',
-  'author_email' => 'at@uniud.it, gt@specialistaweb.it',
+  'author' => 'Giulia Tuveri (specialistaweb.it)',
+  'author_email' => 'gt@specialistaweb.it',
   'author_company' => NULL,
   'constraints' => 
   array (
