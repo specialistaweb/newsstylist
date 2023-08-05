@@ -27,7 +27,7 @@
 </f:if>
  
 
-	<div class="articletype-{newsItem.type}{f:if(condition: newsItem.listopnews, then: ' topnews')}" itemscope="itemscope" itemtype="http://schema.org/Article">
+	<div class="articletype-{newsItem.type}{f:if(condition: newsItem.istopnews, then: ' topnews')}" itemscope="itemscope" itemtype="http://schema.org/Article">
 
    <f:if condition="{settings.layout.headLineOnTop} == '0'">
         <f:render section="NOheadLineOnTop" arguments="{settings:settings,newsItem:newsItem}" />
