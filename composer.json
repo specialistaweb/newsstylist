@@ -36,9 +36,9 @@
     ],
 
     "require": {
-        "typo3/cms-core": "^9.5|^10",
-        "georgringer/news": "^8.5",
-        "bk2k/bootstrap-package": "^9.0.0|^10|^11"
+        "typo3/cms-core": "^9.5|^12.4.99",
+        "georgringer/news": "^11.2.99",
+        "bk2k/bootstrap-package": "^9.0.0|^10|^11|^14"
     },
     "autoload": {
         "psr-4": {
