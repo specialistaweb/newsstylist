@@ -60,6 +60,14 @@
 						<numIndex index="label">4</numIndex>
 						<numIndex index="value">4</numIndex>
 					</numIndex>
+                                        <numIndex index="5">
+                                                 <numIndex index="0">5</numIndex>
+                                                 <numIndex index="1">5</numIndex>
+                                        </numIndex>
+                                        <numIndex index="6">
+                                                 <numIndex index="0">6</numIndex>
+                                                 <numIndex index="1">6</numIndex>
+                                         </numIndex>
 				</items>
                  </config>
               
