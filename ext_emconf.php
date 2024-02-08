@@ -14,7 +14,7 @@ $EM_CONF[$_EXTKEY] = array (
   'title' => 'News StyList',
   'description' => 'all in one: one-touch settings within news plugin - fast & cool way to change the output of news, List view 5 layouts (default, card, carousel, newsletter) and swiper slider with some effects',
   'category' => 'plugin',
-  'version' => '4.0.6',
+  'version' => '5.0.0',
   'state' => 'beta',
   'uploadfolder' => false,
   'clearcacheonload' => false,
@@ -24,10 +24,10 @@ $EM_CONF[$_EXTKEY] = array (
   'constraints' => 
   array (
     'depends' => 
-   array (
-      'typo3' => '12.0.0-12.4.99',
-      'bootstrap_package' => '14.0.0-14.0.99',
-      'news' => '9.0.0-11.2.99',
+    array (
+      'typo3' => '11.5.0-12.4.99',
+      'bootstrap_package' => '11.0.0-14.0.99',
+      'news' => '9.0.0-11.4.99',
     ),
     'conflicts' => 
     array (
@@ -37,4 +37,3 @@ $EM_CONF[$_EXTKEY] = array (
     ),
   ),
 );
-
