@@ -26,29 +26,31 @@ class NewsStylist12
 
         if ($identifier['type'] === 'tca' && $identifier['tableName'] === 'tt_content' && $this->isActiveOnKey($identifier['dataStructureKey'])) {
             $content = file_get_contents($this->getPath());
-            //ù$content .= file_get_contents($this->getPathSwiper());
             if ($content) {
                 $dataStructure['sheets']['newsstylist'] = GeneralUtility::xml2array($content);
             }
-        }
-
-        $content = file_get_contents($this->getPathSwiper());
+            $content = file_get_contents($this->getPathSwiper());
             if ($content) {
                 $dataStructure['sheets']['swiperslider'] = GeneralUtility::xml2array($content);
-	   }
+            }
+
+        }
         $event->setDataStructure($dataStructure);
-  
-  }
+    }
 
     public function parseDataStructureByIdentifierPostProcess(array $dataStructure, array $identifier): array
     {
         if ($identifier['type'] === 'tca' && $identifier['tableName'] === 'tt_content' && $this->isActiveOnKey($identifier['dataStructureKey'])) {
             $content = file_get_contents($this->getPath());
             if ($content) {
-//                $dataStructure['sheets']['extraEntryEventNews'] = GeneralUtility::xml2array($content);
-		ArrayUtility::mergeRecursiveWithOverrule($dataStructure['sheets'], GeneralUtility::xml2array($content));
-
+                $dataStructure['sheets']['newsstylist'] = GeneralUtility::xml2array($content);
             }
+
+            $content = file_get_contents($this->getPathSwiper());
+            if ($content) {
+                $dataStructure['sheets']['swiperslider'] = GeneralUtility::xml2array($content);
+            }
+
         }
         return $dataStructure;
     }
@@ -68,14 +70,14 @@ class NewsStylist12
 
     protected function getPath(): string
     {
-	$file = (new Typo3Version())->getMajorVersion() >= 12 ? 'newsstylist12.xml' : 'newsstylist.xml';
-        return ExtensionManagementUtility::extPath('newsstylist') . 'Configuration/FlexForms/' . $file;        
+        $file = (new Typo3Version())->getMajorVersion() >= 12 ? 'newsstylist12.xml' : 'newsstylist.xml';
+        return ExtensionManagementUtility::extPath('newsstylist') . 'Configuration/FlexForms/' . $file;
     }
 
     protected function getPathSwiper(): string
     {
-	$file = (new Typo3Version())->getMajorVersion() >= 12 ? 'swiperslider12.xml' : 'swiperslider.xml';
-        return ExtensionManagementUtility::extPath('newsstylist') . 'Configuration/FlexForms/' . $file;        
+        $file = (new Typo3Version())->getMajorVersion() >= 12 ? 'swiperslider12.xml' : 'swiperslider.xml';
+        return ExtensionManagementUtility::extPath('newsstylist') . 'Configuration/FlexForms/' . $file;
     }
 
 }
