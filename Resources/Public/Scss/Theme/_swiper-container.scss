@@ -1,10 +1,13 @@
-.swiper-container.layout-card.news-list-view.card-menu {
-    max-width 540px;
+.swiper-container.layout-card.news-list-view.card-menu.card-menu-columns-1 {
+    max-width: 540px;
 }
 
-.swiper-container.layout-card.news-list-view.card-menu .card-menu-item {
-    max-width 540px;
+.swiper-container.layout-card.news-list-view.card-menu.card-menu-columns-1 .card-menu-item {
+    max-width: 540px;
 }
-.swiper-container-coverflow.swiper-container-3d {
-        max-width 100% !important;
+
+.swiper-container.layout-carousel.card-menu-columns-1.swiper-container-flip .card-menu.item,
+.swiper-container.layout-carousel-bigtext.card-menu-columns-1.swiper-container-flip .card-menu.item {
+        width: 100% !important;
+        max-width: 100% !important;
 }
