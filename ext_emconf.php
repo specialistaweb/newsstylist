@@ -27,7 +27,7 @@ $EM_CONF[$_EXTKEY] = array (
     array (
       'typo3' => '11.5.0-12.4.99',
       'bootstrap_package' => '11.0.0-14.0.99',
-      'news' => '9.0.0-11.4.99',
+      'news' => '10.0.0-11.4.99',
     ),
     'conflicts' => 
     array (
