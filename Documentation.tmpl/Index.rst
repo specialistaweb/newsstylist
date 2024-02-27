@@ -51,7 +51,7 @@ News styList
     Alessandro Tuveri, Giulia Tuveri
 
 :Email:
-    at@uniud.it, gt@specialistaweb.it
+    at@specialistaweb.it, gt@specialistaweb.it
 
 :License:
    This extension documentation is published under the `CC BY-NC-SA 4.0 <https://creativecommons.org/licenses/by-nc-sa/4.0/>`__ (Creative Commons) license
