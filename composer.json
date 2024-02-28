@@ -35,9 +35,8 @@
         "GPL-2.0-or-later"
     ],
     "require": {
-        "typo3/cms-core": "^11.0.0|^12.4.99",
-        "georgringer/news": "^10|^11.4.99",
-        "bk2k/bootstrap-package": "^12|^14"
+        "georgringer/news": ">= 10.0.3 < 11.4.99",
+        "bk2k/bootstrap-package": ">= 12 < 11.5"
     },
     "autoload": {
         "psr-4": {
