@@ -12,10 +12,10 @@
 
  <f:if condition="{settings.show.Image} == '1' && {newsItem.mediaPreviews}">
 	<f:then>
-		<div class="card-menu-item row news-list-item item-carousel item-default swiper-slide" style="height: {settings.swiper.carouselHeight}px !important; background-image: url({f:uri.image(src:newsItem.mediaPreviews.0.uid, treatIdAsReference:1, width:'1920c')})" >
+		<div class="card-menu-item row news-list-item item-carousel item-default swiper-slide {f:if(condition: settings.swiper.activate, then: 'noshrink', else: 'shrink')}" style="height: {settings.swiper.carouselHeight}px !important; background-image: url({f:uri.image(src:newsItem.mediaPreviews.0.uid, treatIdAsReference:1, width:'1920c')})" >
 	</f:then>
 	<f:else>
-		<div class="card-menu-item card row news-list-item item-carousel item-default swiper-slide" style="background-color: {settings.swiper.background}; height: {settings.swiper.carouselHeight}px !important;" >
+		<div class="card-menu-item card row news-list-item item-carousel item-default swiper-slide {f:if(condition: settings.swiper.activate, then: 'noshrink', else: 'shrink')}" style="background-color: {settings.swiper.background}; height: {settings.swiper.carouselHeight}px !important;" >
 	</f:else>
 </f:if>
 
