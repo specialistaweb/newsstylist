@@ -36,18 +36,4 @@ div.layout-carousel .row.news-list-item .lead, div.layout-carousel .row.news-lis
 	padding: 20px;
 }
 
-div.news div.layout-carousel {
-    flex-wrap: nowrap;
-}
-
-div.news div.layout-carousel div.swiper-slide.shrink {
-    flex-grow: 1;
-    flex-shrink: 1;
-}
-
-div.news div.layout-carousel div.swiper-slide.noshrink {
-    flex-shrink: 0;
-}
-
-
 
