@@ -24,7 +24,7 @@ class NewsStylist12
         $dataStructure = $event->getDataStructure();
         $identifier = $event->getIdentifier();
 
-        if ($identifier['type'] === 'tca' && $identifier['tableName'] === 'tt_content' && $this->isActiveOnKey($identifier['dataStructureKey'])) {
+	if (array_key_exists('type',$identifier) && $identifier['type'] === 'tca' && array_key_exists('tableName',$identifier) && $identifier['tableName'] === 'tt_content' && $this->isActiveOnKey($identifier['dataStructureKey'])) {
             $content = file_get_contents($this->getPath());
             if ($content) {
                 $dataStructure['sheets']['newsstylist'] = GeneralUtility::xml2array($content);
