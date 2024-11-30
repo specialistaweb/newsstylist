@@ -3,7 +3,7 @@
 /***************************************************************
  * Extension Manager/Repository config file for ext "newsstylist".
  *
- * Auto generated 24-10-2023 14:59
+ * Auto generated 30-11-2024 18:54
  *
  * Manual updates:
  * Only the data in the array - everything else is removed by next
@@ -14,25 +14,25 @@ $EM_CONF[$_EXTKEY] = array (
   'title' => 'News StyList',
   'description' => 'all in one: one-touch settings within news plugin - fast & cool way to change the output of news, List view 5 layouts (default, card, carousel, newsletter) and swiper slider with some effects',
   'category' => 'plugin',
-  'version' => '5.1.0',
-  'state' => 'stable',
+  'version' => '6.0.0',
+  'state' => 'beta',
   'uploadfolder' => false,
   'clearcacheonload' => false,
   'author' => 'Giulia Tuveri (specialistaweb.it)',
   'author_email' => 'gt@specialistaweb.it',
   'author_company' => 'specialistaweb.it',
-  'constraints' => 
+  'constraints' =>
   array (
-    'depends' => 
+    'depends' =>
     array (
-      'typo3' => '11.5.0-12.4.99',
-      'bootstrap_package' => '11.0.0-14.0.99',
-      'news' => '10.0.0-11.4.99',
+      'typo3' => '12.0.0-13.4.99',
+      'bootstrap_package' => '13.0.0-15.0.99',
+      'news' => '12.0.0-12.1.99',
     ),
-    'conflicts' => 
+    'conflicts' =>
     array (
     ),
-    'suggests' => 
+    'suggests' =>
     array (
     ),
   ),
