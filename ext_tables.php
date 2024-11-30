@@ -1,7 +1,7 @@
 <?php
 defined('TYPO3') || die('Access denied.');
 
-        \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
+/*        \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
             'newsstylist',
             'frontend',
             'tx_newsstylist'
@@ -19,3 +19,4 @@ defined('TYPO3') || die('Access denied.');
 
 	// setup
 	\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTypoScript('newsstylist', 'setup', '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:newsstylist/Configuration/TypoScript/setup.ts>"');
+*/
