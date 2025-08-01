@@ -15,7 +15,7 @@ $EM_CONF[$_EXTKEY] = array (
   'description' => 'all in one: one-touch settings within news plugin - fast & cool way to change the output of news, List view 5 layouts (default, card, carousel, newsletter) and swiper slider with some effects',
   'category' => 'plugin',
   'version' => '6.0.2',
-  'state' => 'beta',
+  'state' => 'stable',
   'uploadfolder' => false,
   'clearcacheonload' => false,
   'author' => 'Giulia Tuveri (specialistaweb.it)',
@@ -26,8 +26,8 @@ $EM_CONF[$_EXTKEY] = array (
     'depends' =>
     array (
       'typo3' => '12.0.0-13.4.99',
-      'bootstrap_package' => '13.0.0-15.0.99',
-      'news' => '11.0.0-12.1.99',
+      'bootstrap_package' => '14.0.0-15.0.99',
+      'news' => '11.0.0-12.3.99',
     ),
     'conflicts' =>
     array (
