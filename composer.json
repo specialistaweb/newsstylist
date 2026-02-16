@@ -2,7 +2,7 @@
     "name": "specialistaweb/newsstylist",
     "type": "typo3-cms-extension",
     "minimum-stability":"dev",
-    "description": "TYPO3 CMS - all-in-one: settings within news  plugin - fast & cool way to change the output of news, List view 5 layouts (default, card, carousel, newsletter) and swiper slider with some effects",
+    "description": "News stylist - Extends news system, list view, with 5 layouts and several options to repositioning the objects; swiperlider included.",
     "authors": [
         {
             "name": "Alessandro Tuveri",
@@ -35,8 +35,8 @@
         "GPL-2.0-or-later"
     ],
     "require": {
-        "georgringer/news": ">= 12.0 < 12.2",
-        "bk2k/bootstrap-package": ">= 13.0 < 16"
+        "georgringer/news": ">= 14.0 > 14.4",
+        "bk2k/bootstrap-package": ">= 16.0 > 16.4"
     },
     "autoload": {
         "psr-4": {
