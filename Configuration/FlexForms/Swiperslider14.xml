@@ -1,0 +1,201 @@
+<swiperslider>
+    <ROOT>
+        <sheetTitle>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_tab.swiperslider</sheetTitle>
+	<type>array</type>
+	<el>
+
+           <settings.swiper.activate>
+  	         <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.swiper_activate</label>
+        	 	<config>
+                        	<type>check</type>
+                        	<default>0</default>
+                 </config>
+           </settings.swiper.activate>
+
+            <settings.swiper.scroll>
+               <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.swiper_scroll</label>
+                                           <config>
+                                                                <type>select</type>
+                                                                <renderType>selectSingle</renderType>
+                                                                <items>
+                                                                        <numIndex index="label" type="array">
+                                                                                <numIndex index="label">Default, slide responsive</numIndex>
+                                                                                <numIndex index="value">responsive</numIndex>
+                                                                        </numIndex>
+                                                                        <numIndex index="value">
+                                                                                <numIndex index="label">Fade, 1 item per slide</numIndex>
+                                                                                <numIndex index="value">oneSlideFade</numIndex>
+                                                                        </numIndex>
+                                                                        <numIndex index="2">
+                                                                                <numIndex index="label">Flip, 1 item per slide</numIndex>
+                                                                                <numIndex index="value">flip</numIndex>
+                                                                        </numIndex>
+                                                                        <numIndex index="3">
+                                                                                <numIndex index="label">Coverflow</numIndex>
+                                                                                <numIndex index="value">coverflow</numIndex>
+                                                                        </numIndex>
+                                                                        <numIndex index="4">
+                                                                                <numIndex index="label">fixed width, do not use (bugs to fix)</numIndex>
+                                                                                <numIndex index="value">watchSlidesVisibility</numIndex>
+                                                                        </numIndex>
+                                                                </items>
+                 </config>
+              
+            </settings.swiper.scroll>
+            <settings.swiper.itemsPerSlide>
+             
+               <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.swiper_itemsPerSlide</label>
+                                           <config>
+                                                                <type>select</type>
+                                                                <renderType>selectSingle</renderType>
+                                                                <items>
+                                                                        <numIndex index="label">
+                                                                                <numIndex index="label">Default</numIndex>
+                                                                                <numIndex index="value">3</numIndex>
+                                                                        </numIndex>
+                                                                        <numIndex index="value">
+                                                                                <numIndex index="label">1</numIndex>
+                                                                                <numIndex index="value">1</numIndex>
+                                                                        </numIndex>
+                                                                        <numIndex index="2">
+                                                                                <numIndex index="label">2</numIndex>
+                                                                                <numIndex index="value">2</numIndex>
+                                                                        </numIndex>
+                                                                        <numIndex index="3">
+                                                                                <numIndex index="label">3</numIndex>
+                                                                                <numIndex index="value">3</numIndex>
+                                                                        </numIndex>
+                                                                        <numIndex index="4">
+                                                                                <numIndex index="label">4</numIndex>
+                                                                                <numIndex index="value">4</numIndex>
+                                                                        </numIndex>
+                                                                        <numIndex index="5">
+                                                                                <numIndex index="label">5</numIndex>
+                                                                                <numIndex index="value">5</numIndex>
+                                                                        </numIndex>
+                                                                        <numIndex index="6">
+                                                                                <numIndex index="label">6</numIndex>
+                                                                                <numIndex index="value">6</numIndex>
+                                                                        </numIndex>
+                                                                </items>
+                 </config>
+              
+            </settings.swiper.itemsPerSlide>
+
+            <settings.swiper.background>
+                
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.swiper_background</label>
+                                        <config>
+                                        	<type>color</type>
+                                                <size>10</size>
+						<default>#ffffff</default>
+                                        </config>
+                
+            </settings.swiper.background>
+            <settings.swiper.autoplay>
+                
+            <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.swiper_autoplay</label>
+                                        <config>
+                                                        <type>check</type>
+                                                        <default>1</default>
+                                        </config>
+            </settings.swiper.autoplay>
+
+            <settings.swiper.carouselHeight>
+                           <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.swiper_carouselHeight</label>
+                            <config>
+                                <type>input</type>
+                                <size>4</size>
+				<range>
+					<lower>100</lower>
+					<upper>1200</upper>
+				</range>
+                                <default>420</default>
+                                <eval>required,int</eval>
+                            </config>
+                        
+            </settings.swiper.carouselHeight>
+
+            <settings.swiper.delay>
+                           <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.swiper_delay</label>
+                            <config>
+                                <type>input</type>
+                                <size>5</size>
+				<range>
+					<lower>0</lower>
+					<upper>12000</upper>
+				</range>
+                                <default>2000</default>
+                                <eval>required,int</eval>
+                            </config>
+            </settings.swiper.delay>
+
+            <settings.swiper.speed>
+                           <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.swiper_speed</label>
+                            <config>
+                                <type>input</type>
+                                <size>5</size>
+				<range>
+					<lower>0</lower>
+					<upper>12000</upper>
+				</range>
+                                <type>input</type>
+                                <size>8</size>
+                                <default>1200</default>
+                                <eval>required,int</eval>
+                            </config>
+            </settings.swiper.speed>
+
+            <settings.swiper.controlsposition>
+               <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.swiper_controlsposition</label>
+                                           <config>
+                                                                <type>select</type>
+                                                                <renderType>selectSingle</renderType>
+                                                                <items>
+                                                                        <numIndex index="label">
+                                                                                <numIndex index="label">bottom</numIndex>
+                                                                                <numIndex index="value"></numIndex>
+                                                                        </numIndex>
+                                                                        <numIndex index="value">
+                                                                                <numIndex index="label">inside</numIndex>
+                                                                                <numIndex index="value">inside</numIndex>
+                                                                        </numIndex>
+                                                                </items>
+                 </config>
+            </settings.swiper.controlsposition>
+
+            <settings.swiper.showarrows>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.swiper_showarrows</label>
+                                        <config>
+                                                        <type>check</type>
+                                                        <default>1</default>
+                                        </config>
+            </settings.swiper.showarrows>
+
+            <settings.swiper.shownavigation>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.swiper_shownavigation</label>
+                                        <config>
+                                                        <type>check</type>
+                                                        <default>1</default>
+                                        </config>
+            </settings.swiper.shownavigation>
+
+            <settings.swiper.mousewheel>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.swiper_mousewheel</label>
+                                        <config>
+                                                        <type>check</type>
+                                                        <default>1</default>
+                                        </config>
+            </settings.swiper.mousewheel>
+
+            <settings.swiper.keyboard>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.swiper_keyboard</label>
+                                        <config>
+                                                        <type>check</type>
+                                                        <default>1</default>
+                                        </config>
+            </settings.swiper.keyboard>
+
+	</el>
+    </ROOT>
+</swiperslider>

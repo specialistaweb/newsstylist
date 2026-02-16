@@ -1,0 +1,366 @@
+<newsstylist>
+     <ROOT>
+  	<sheetTitle>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_tab.newsstylist</sheetTitle>
+	<el>
+	<type>array</type>
+          <settings.layout.name>
+             <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.layout_name</label>
+		<config>
+			<type>select</type>
+				<renderType>selectSingle</renderType>
+				<items>
+					<numIndex index="label" type="array">
+						<numIndex index="label">Default</numIndex>
+						<numIndex index="value">default</numIndex>
+					</numIndex>
+					<numIndex index="value" type="array">
+						<numIndex index="label">Newsletter plain output</numIndex>
+						<numIndex index="value">newsletter-plain</numIndex>
+					</numIndex>
+					<numIndex index="2">
+						<numIndex index="label">Cards (menu card style)</numIndex>
+						<numIndex index="value">card</numIndex>
+					</numIndex>
+					<numIndex index="3">
+						<numIndex index="label">Carousel</numIndex>
+						<numIndex index="value">carousel</numIndex>
+					</numIndex>
+					<numIndex index="4">
+						<numIndex index="label">Carousel big text centered</numIndex>
+						<numIndex index="value">carousel-bigtext</numIndex>
+					</numIndex>
+				</items>
+                 </config>
+          </settings.layout.name>
+
+          <settings.layout.menuCardItems> 
+             
+               <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.layout_menuCardItems</label>
+		<config>
+			<type>select</type>
+				<renderType>selectSingle</renderType>
+				<items>
+					<numIndex index="label" type="array">
+						<numIndex index="label">Default</numIndex>
+						<numIndex index="value">1</numIndex>
+					</numIndex>
+					<numIndex index="value">
+						<numIndex index="label">1</numIndex>
+						<numIndex index="value">1</numIndex>
+					</numIndex>
+					<numIndex index="2">
+						<numIndex index="label">2</numIndex>
+						<numIndex index="value">2</numIndex>
+					</numIndex>
+					<numIndex index="3">
+						<numIndex index="label">3</numIndex>
+						<numIndex index="value">3</numIndex>
+					</numIndex>
+					<numIndex index="4">
+						<numIndex index="label">4</numIndex>
+						<numIndex index="value">4</numIndex>
+					</numIndex>
+                                        <numIndex index="5">
+                                                 <numIndex index="0">5</numIndex>
+                                                 <numIndex index="1">5</numIndex>
+                                        </numIndex>
+                                        <numIndex index="6">
+                                                 <numIndex index="0">6</numIndex>
+                                                 <numIndex index="1">6</numIndex>
+                                         </numIndex>
+				</items>
+                 </config>
+              
+          </settings.layout.menuCardItems> 
+          <settings.layout.colText>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.layout_colText</label>
+                    <config>
+			<type>select</type>
+			<renderType>selectSingle</renderType>
+			<items>
+				<numIndex index="label" type="array">
+					<numIndex index="label">Default (col-md-9)</numIndex>
+					<numIndex index="value">col-md-9</numIndex>
+				</numIndex>
+				<numIndex index="value">
+					<numIndex index="label">col-md-1</numIndex>
+					<numIndex index="value">col-md-1</numIndex>
+				</numIndex>
+				<numIndex index="2">
+					<numIndex index="label">col-md-2</numIndex>
+					<numIndex index="value">col-md-2</numIndex>
+				</numIndex>
+				<numIndex index="3">
+					<numIndex index="label">col-md-3</numIndex>
+					<numIndex index="value">col-md-3</numIndex>
+				</numIndex>
+				<numIndex index="4">
+					<numIndex index="label">col-md-4</numIndex>
+					<numIndex index="value">col-md-4</numIndex>
+				</numIndex>
+				<numIndex index="5">
+					<numIndex index="label">col-md-5</numIndex>
+					<numIndex index="value">col-md-5</numIndex>
+				</numIndex>
+				<numIndex index="6">
+					<numIndex index="label">col-md-6</numIndex>
+					<numIndex index="value">col-md-6</numIndex>
+				</numIndex>
+				<numIndex index="7">
+					<numIndex index="label">col-md-7</numIndex>
+					<numIndex index="value">col-md-7</numIndex>
+				</numIndex>
+				<numIndex index="8">
+					<numIndex index="label">col-md-8</numIndex>
+					<numIndex index="value">col-md-8</numIndex>
+				</numIndex>
+				<numIndex index="9">
+					<numIndex index="label">col-md-9</numIndex>
+					<numIndex index="value">col-md-9</numIndex>
+				</numIndex>
+				<numIndex index="10">
+					<numIndex index="label">col-md-10</numIndex>
+					<numIndex index="value">col-md-10</numIndex>
+				</numIndex>
+				<numIndex index="11">
+					<numIndex index="label">col-md-11</numIndex>
+					<numIndex index="value">col-md-11</numIndex>
+				</numIndex>
+				<numIndex index="12">
+					<numIndex index="label">col-md-12</numIndex>
+					<numIndex index="value">col-md-12</numIndex>
+				</numIndex>
+			</items>
+                    </config>
+            </settings.layout.colText>
+            <settings.layout.colImage>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.layout_colImage</label>
+                    <config>
+			<type>select</type>
+			<renderType>selectSingle</renderType>
+			<items>
+				<numIndex index="label" type="array">
+					<numIndex index="label">Default (col-md-3)</numIndex>
+					<numIndex index="value">col-md-3</numIndex>
+				</numIndex>
+				<numIndex index="value">
+					<numIndex index="label">col-md-1</numIndex>
+					<numIndex index="value">col-md-1</numIndex>
+				</numIndex>
+				<numIndex index="2">
+					<numIndex index="label">col-md-2</numIndex>
+					<numIndex index="value">col-md-2</numIndex>
+				</numIndex>
+				<numIndex index="3">
+					<numIndex index="label">col-md-3</numIndex>
+					<numIndex index="value">col-md-3</numIndex>
+				</numIndex>
+				<numIndex index="4">
+					<numIndex index="label">col-md-4</numIndex>
+					<numIndex index="value">col-md-4</numIndex>
+				</numIndex>
+				<numIndex index="5">
+					<numIndex index="label">col-md-5</numIndex>
+					<numIndex index="value">col-md-5</numIndex>
+				</numIndex>
+				<numIndex index="6">
+					<numIndex index="label">col-md-6</numIndex>
+					<numIndex index="value">col-md-6</numIndex>
+				</numIndex>
+				<numIndex index="7">
+					<numIndex index="label">col-md-7</numIndex>
+					<numIndex index="value">col-md-7</numIndex>
+				</numIndex>
+				<numIndex index="8">
+					<numIndex index="label">col-md-8</numIndex>
+					<numIndex index="value">col-md-8</numIndex>
+				</numIndex>
+				<numIndex index="9">
+					<numIndex index="label">col-md-9</numIndex>
+					<numIndex index="value">col-md-9</numIndex>
+				</numIndex>
+				<numIndex index="10">
+					<numIndex index="label">col-md-10</numIndex>
+					<numIndex index="value">col-md-10</numIndex>
+				</numIndex>
+				<numIndex index="11">
+					<numIndex index="label">col-md-11</numIndex>
+					<numIndex index="value">col-md-11</numIndex>
+				</numIndex>
+				<numIndex index="12">
+					<numIndex index="label">col-md-12</numIndex>
+					<numIndex index="value">col-md-12</numIndex>
+				</numIndex>
+			</items>
+                    </config>
+            </settings.layout.colImage>
+
+            <settings.layout.headLineOnTop>				
+		<label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.layout_headLineOnTop</label>
+		<config>
+			<type>check</type>
+		</config>			 
+	    </settings.layout.headLineOnTop>
+
+            <settings.layout.additionalInfoFirst>
+                <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.layout_additionalInfoFirst</label>
+		<config>
+			<type>check</type>
+		</config>                
+            </settings.layout.additionalInfoFirst>
+
+            <settings.show.extraInfo>
+                <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.show_extraInfo</label>
+		<config>
+			<type>check</type>
+                	<default>1</default>
+	 	</config>
+            </settings.show.extraInfo>
+
+            <settings.show.extraIcons>
+                 <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.show_extraIcons</label>
+		<config>
+			<type>check</type>
+                        <default>1</default>
+		</config>
+            </settings.show.extraIcons>
+
+            <settings.show.extraTime>
+                <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.show_extraTime</label>
+	  	<config>
+			<type>check</type>
+                   	<default>1</default>
+		</config>                
+            </settings.show.extraTime>
+        
+	    <settings.layout.dateFormat>
+	        <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.layout_dateFormat</label>
+                <config>
+        		<type>input</type>
+        		<size>20</size>
+                        <default>%d-%m-%Y %H:%M</default>
+                    </config>
+            </settings.layout.dateFormat>
+
+            <settings.show.Author>        
+                <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.show_author</label>
+		<config>
+			<type>check</type>
+                        <default>1</default>
+		</config>
+            </settings.show.Author>
+
+            <settings.show.Categories>               
+                <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.show_categories</label>
+		<config>
+			<type>check</type>
+                        <default>1</default>
+		</config>
+            </settings.show.Categories>
+
+            <settings.show.Tags>
+                <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.show_tags</label>
+			<config>
+				<type>check</type>
+                        	<default>1</default>
+			</config>        
+            </settings.show.Tags>
+
+             <settings.layout.imageRight>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.layout_imageRight</label>
+			<config>
+				<type>check</type>
+			</config>                
+            </settings.layout.imageRight>
+
+            <settings.show.headLine>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.show_headLine</label>
+			<config>
+				<type>check</type>
+                        	<default>1</default>
+			</config>
+            </settings.show.headLine>
+
+            <settings.show.Image>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.show_Image</label>
+			<config>
+				<type>check</type>
+        			<default>1</default>
+			</config>        
+            </settings.show.Image>
+
+            <settings.displayDummyIfNoMedia>                     
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.displayDummyIfNoMedia</label>
+			<config>
+				<type>check</type>
+                            	<default>1</default>
+			</config>        
+            </settings.displayDummyIfNoMedia>
+
+            <settings.show.lead>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.show_lead</label>
+			<config>
+				<type>check</type>
+				<default>1</default>
+			</config>
+            </settings.show.lead>
+
+            <settings.show.moreLink>				
+		<label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.show_moreLink</label>
+			<config>
+				<type>check</type>
+                		<default>1</default>
+			</config>
+	  </settings.show.moreLink>  
+
+          <settings.layout.moreLink>
+             <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.layout_moreLink</label>
+		<config>
+                    <type>select</type>
+                    <renderType>selectSingle</renderType>
+			<items>
+				<numIndex index="label" type="array">
+					<numIndex index="label">Button</numIndex>
+					<numIndex index="value">button</numIndex>
+				</numIndex>
+				<numIndex index="value">
+					<numIndex index="label">Text only</numIndex>
+					<numIndex index="value">text</numIndex>
+				</numIndex>
+			</items>
+                 </config>              
+            </settings.layout.moreLink>
+
+            <settings.layout.moreLinkLabel>                                
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.moreLinkLabel</label>
+                    <config>
+                        <type>input</type>
+                        <size>30</size>
+                        <default></default>
+                    </config>
+            </settings.layout.moreLinkLabel>
+
+           <settings.svgicon.width>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.svgicon_width</label>
+                    <config>
+                        <type>input</type>
+                        <size>2</size>
+                        <eval>int</eval>
+                        <default>18</default>
+                    </config>
+            </settings.svgicon.width>
+
+            <settings.svgicon.height>
+                    <label>LLL:EXT:newsstylist/Resources/Private/Language/locallang_be.xlf:flexforms_newsstylist.svgicon_height</label>
+                    <config>
+                        <type>input</type>
+                        <size>2</size>
+                        <eval>int</eval>
+                        <default>18</default>
+                    </config>                
+            </settings.svgicon.height>	
+
+	</el>
+      </ROOT>
+
+   </newsstylist>
