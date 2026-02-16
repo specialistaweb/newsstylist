@@ -13,3 +13,9 @@ services:
       - name: event.listener
         identifier: 'newsstylist-flexformhook'
         event: TYPO3\CMS\Core\Configuration\Event\AfterFlexFormDataStructureParsedEvent
+
+  SpecialistaWeb\Newsstylist\EventListener\ModifyFlexformEvent:
+    tags:
+      - name: event.listener
+        identifier: 'newsstylist-flexParsing'
+        event: TYPO3\CMS\Core\Configuration\Event\AfterFlexFormDataStructureParsedEvent
