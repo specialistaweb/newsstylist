@@ -35,8 +35,8 @@
         "GPL-2.0-or-later"
     ],
     "require": {
-        "georgringer/news": ">= 14.0 > 14.4",
-        "bk2k/bootstrap-package": ">= 16.0 > 16.4"
+        "georgringer/news": ">= 14.0 < 14.4.99",
+        "bk2k/bootstrap-package": ">= 16.0 < 16.4.99"
     },
     "autoload": {
         "psr-4": {
